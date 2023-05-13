@@ -22,8 +22,8 @@ int main(){
         cin >> tipPulv;
         cout << endl << "Inseriu todos os tipos de pulverizacao? \n";
         cout << "caso tenha digite 's', caso nao tenha digite 'n': ";
-        sair = tolower(sair);
         cin >> sair;
+        sair = tolower(sair);
         system("cls");
         switch(tipPulv){
             case 1:
